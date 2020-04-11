@@ -1,0 +1,283 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+#topo{
+	float: left;
+	width: 200px;
+	height: 40px;
+	overflow: hidden;
+	clear: both;
+	overflow: hidden;
+
+} 
+
+#menu{
+	background-color:#148f99;
+	width: 100%;
+	height: 40px;
+}
+
+#menu ul{
+	margin:0;
+	list-style: none;
+	margin-left: 20%;
+
+}
+
+#menu ul li{
+	float: left;
+
+}
+
+#menu ul li a{
+	
+	display: block;
+	margin-right: 20px;
+	width: 140px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 5px;
+	text-decoration: none;
+	color: #cccccc;
+}
+#menu ul li a:hover{
+	
+	display: block;
+	margin-right: 20px;
+	width: 140px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 0px;
+	text-decoration: none;
+	color: black;
+	background-color:#024e5b;
+}
+.ativo{
+	background-color:#024e5b;
+	display: block;
+	margin-right: 20px;
+	width: 140px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 0px !important;
+	text-decoration: none;
+	color: black;
+}
+
+.internet{
+	height: 10px;
+	float: left;
+}
+.internet img{
+	height: 30px;
+	margin: 5px 10px 5px 10px;
+
+}
+
+
+
+
+ .slide{
+ 	width:100%;
+ 	height: 500px;
+ 	overflow: hidden;
+}
+.slide img{
+	width: 100%;
+	height: auto;
+}
+ 
+ #geral-anuncio{
+ 	width: 100%;
+ 	height: 380px;
+ 	
+ }
+
+.anuncio1{
+	width: 300px;
+	height: 200px;
+	background-color:#007e8d;
+	float: left;
+	margin-left:70px; 
+	
+}
+
+.anuncio2{
+	width: 300px;
+	height: 200px;
+	background-color:#028797;
+	float: left;
+}
+.anuncio3{
+	width: 300px;
+	height: 200px;
+	background-color:#1999a4;
+	float: left;
+}
+
+ .barra1{
+ 	width: 300px;
+ 	height: 90px;
+ 	margin-left: 200px;
+ 	float: left;
+ 	background-color:#014f5b; 
+ 	margin-top: 10px;
+}
+
+.barra2{
+ 	width: 300px;
+ 	height: 90px;
+ 	float: left;
+ 	background-color:#139da8;
+ 	margin-top: 10px; 
+}
+
+.barra1 img{
+	width: 88%;
+}
+
+.barra2 img{
+	width: 88%;
+}
+
+.anuncio1 img{
+	width: 100%
+}
+.anuncio2 img{
+	width: 100%
+}
+.anuncio3 img{
+	width: 100%
+}
+#rodape{
+	background-color:#148f99;
+	width: 100%;
+	height: 40px;
+}
+.rodape1{
+	width:30%;
+	float: left;
+}
+
+.rodape2{
+	width:40%;
+	float: left;
+	margin-top: 10px;
+	font-family: 'Muli', sans-serif;
+	color:#cccccc; 
+	text-align: center;
+}
+
+.rodape3{
+	width:30%;
+	float: left;
+	
+}
+.internet-1{
+	height: 10px;
+	width: 40px;
+	float: right;
+}
+.internet-1 img{
+	width: 70%;
+	
+}
+
+
+/*aqui inicia o css da clinica */
+.geral-info{
+	 height: 800px;
+	 width: 100%;
+}
+.texto-info{
+	width: 40%;
+	height: 500px;
+	float: left;
+	font-family: 'Muli', sans-serif;
+	padding: 50px 30px;
+	text-align: center; 
+
+}
+.img-info{
+	width: 20%;
+	height: 200px;
+	float: left;
+	margin-left: 300px;
+}
+
+.texto2-geral{
+	width: 50%;
+	height: 300px;
+	font-family: 'Muli', sans-serif;
+	color: black;
+	float: right;
+	margin-top: 50px; 
+
+}
+
+.texto2{
+	font-family: 'Muli', sans-serif;
+	color:#007e8d;
+	font-stretch:4;
+	
+
+}
+
+/*aqui começa o css de diferenciais*/
+.texto-geral12{
+	
+	width: 50%; 
+	margin-top: 20px;
+	margin-left: 30px;
+	font-family: 'Merriweather', serif;
+
+}
+/*aqui começa o css de contatos*/
+.info-contato{
+	margin-left: 300px;
+	margin-top: 100px;
+	font-family: 'Merriweather', serif;
+
+}
+
+.maior{
+	font-size: 30pt; 
+	
+}
+/*aqui começa o css de galeria*/
+.geral{
+	width: 100%;
+	background-color: black;
+	height: 1600px;
+
+}
+.foto{
+	width:230px; 
+	height:230px;
+	
+	background-color: green;
+	float: left;
+	margin: 20px;
+	overflow: hidden;
+
+}
+.geral a:hover{
+	width:300px; 
+	height:300px;
+	margin: 20px;
+	float: left;
+	background-image: img/1.JPG;
+}
+.estetica-ft{
+	float: left;
+}
+
